@@ -1,0 +1,10 @@
+Logfile initialized
+[INFO] logfile = /Users/hamza/Documents/i8bit/iPrayerNotify/build.log
+[DEBUG] /Users/hamza/Library/Application Support/Titanium/mobilesdk/osx/2.1.5.v20121112144658/android/builder.py emulator iPrayerNotify /Applications/adt-bundle-mac/sdk /Users/hamza/Documents/i8bit/iPrayerNotify com.i8bit.iprayernotify 2 WVGA854
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Applications/adt-bundle-mac/sdk/tools/emulator
+[DEBUG] SDCard: /Users/hamza/.titanium/android2.sdcard
+[DEBUG] AVD ID: 2
+[DEBUG] AVD Skin: WVGA854
+[DEBUG] SDK: /Applications/adt-bundle-mac/sdk
+[DEBUG] /Applications/adt-bundle-mac/sdk/tools/emulator -avd titanium_2_WVGA854 -port 5560 -sdcard /Users/hamza/.titanium/titanium_2_WVGA854.sdcard -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128

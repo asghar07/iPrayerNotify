@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">nsIRn7YmaJ2gweHAGHWdtQ3f015AnRWr</property>
+    <property name="acs-oauth-key-production" type="string">QD7R2VyUJ9Ve9dldQAnkeizbL1gEjpCQ</property>
+    <property name="acs-api-key-production" type="string">jpB5BgTXi8cD1d3L1vRBQ0OxhhroD05U</property>
+    <property name="acs-oauth-secret-development" type="string">Adndtrjik8LeGgbjSxuWY2yxiaU1Slww</property>
+    <property name="acs-oauth-key-development" type="string">kqebHwvbTbhMR6JzVGrrMMJM5hJh8xLM</property>
+    <property name="acs-api-key-development" type="string">60RlGsP3cOAuxZnR0Lxo744oU3oFOJ5G</property>
+    <id>com.i8bit.iprayernotify</id>
+    <name>iPrayerNotify</name>
+    <version>1.0</version>
+    <publisher>Mir Mohammed Shajahan</publisher>
+    <url>http://www.i8b.it</url>
+    <description>Prayer Timings</description>
+    <copyright>2013 by www.i8b.it</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>53a62f68-8cda-4ee4-94a2-661a55ff935c</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+    </deployment-targets>
+    <sdk-version>2.1.5.v20121112144658</sdk-version>
+</ti:app>
