@@ -6,6 +6,8 @@ of calculation.
 
 Thanks to Hamid Zarrabi-Zadeh for the library(PrayTimes.org).
 
+Application is released under MIT License
+-------------------------------------------
 
 Copyright (c) 2013 Mir Mohammed Shajahan
 
